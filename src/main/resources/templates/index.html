@@ -10,6 +10,8 @@
 <div class="container">
     <header th:insert="fragments/header"></header>
     <main>
+        <h1 th:text="${name}"></h1>
+        <h1 th:text="${clasName}"></h1>
         <a href="/pers-add" class="btn btn-success">Создать персонажа</a>
     </main>
     <footer th:insert="fragments/footer"></footer>
